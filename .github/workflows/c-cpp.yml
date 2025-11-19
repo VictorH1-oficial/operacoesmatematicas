@@ -13,8 +13,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: configure
-      run: ./configure
     - name: compilar
       run: gcc operacoesmatematicas_test.c -o operacoesmatematicas_test
     - name: executar
