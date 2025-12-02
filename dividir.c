@@ -1,6 +1,6 @@
 int dividir( int dividendo,int divisor) {
   
-    int quociente = 0;
+    int quociente = 0,resto;
 
 
     int sinalQuociente = 1;
@@ -8,11 +8,8 @@ int dividir( int dividendo,int divisor) {
         sinalQuociente = -1;
     }
 
-    int a = dividendo < 0 ? -dividendo : dividendo;
-    int b = divisor < 0 ? -divisor : divisor;
-
-    while (a >= b) {
-        a -= b;
+    while (dividendo >= divisor) {
+        dividendo -= divisor;
         quociente++;
     }
 
@@ -30,6 +27,6 @@ int dividir( int dividendo,int divisor) {
         }
     }
 
-    resto = a;
+    resto = dividendo;
 return resultado;
 }
