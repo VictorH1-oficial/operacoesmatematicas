@@ -1,4 +1,4 @@
-int dividir( int dividendo,int divisor) 
+int dividir( int dividendo,int divisor) {
   
     int quociente = 0;
 
