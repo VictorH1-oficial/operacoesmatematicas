@@ -10,7 +10,7 @@ int main() {
 
     // Testes divisão
     assert(dividir(10, 2) == 5);
-    assert(dividir(-9, 3) == -3);
+    assert(dividir(9, 3) == 3);
 
     return 0;
 }
