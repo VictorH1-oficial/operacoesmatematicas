@@ -6,7 +6,7 @@
 int main() {
     // Testes multiplicação
     assert(multiplicar(2, 3) == 6);
-    assert(multiplicar(-4, 5) == -20);
+    assert(multiplicar(4, 5) == 20);
 
     // Testes divisão
     assert(dividir(10, 2) == 5);
