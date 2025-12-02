@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int multiplicar(numero1,numero2)
+int multiplicar(int numero1,int numero2)
 {
     int contador1,contador2,produto;
 
